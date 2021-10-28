@@ -1,0 +1,110 @@
+/* Small Widget */
+.containerSmall {
+  @apply w-64 h-24 flex justify-start px-2 items-center;
+}
+
+.containerSmall .iconContainer {
+  @apply m-3;
+}
+
+.contentSmall {
+  @apply flex flex-col text-gray-400 font-semibold;
+}
+
+.quantity {
+  @apply text-black font-bold text-xl;
+}
+
+.rightIcon {
+  @apply flex flex-row-reverse justify-between px-5;
+}
+
+.linearColor {
+  background: linear-gradient(135deg, #00c0e2 0%, #3d6988 100%);
+  @apply rounded-xl;
+}
+
+.linearColor p {
+  @apply text-white font-semibold;
+}
+
+/* Medium Widget */
+.mediumContainer {
+  @apply w-80 h-80;
+}
+
+/* History Medium Widget */
+.historyContainer {
+  @apply flex flex-col;
+}
+
+.headerHistory {
+  @apply font-bold text-2xl flex justify-start m-5 text-gray-600;
+}
+
+.buttonHistory {
+  @apply flex justify-end;
+}
+
+.historyContentContainer {
+  @apply flex flex-col w-full h-48 px-5;
+}
+
+.historyContent {
+  @apply flex  w-full items-center h-10;
+}
+
+.dividerContent {
+  @apply flex flex-col h-3/4 w-1 bg-primary rounded-full mr-2;
+}
+
+.historyContent p {
+  @apply flex items-center font-semibold text-base text-gray-700;
+}
+
+/* user Widget */
+
+.userWidgetContainer {
+  @apply flex flex-col h-full w-full justify-center items-center;
+}
+
+.iconUserContainer {
+  @apply flex justify-center items-center shadow-lg rounded-full;
+}
+
+.iconUserContainer img {
+  @apply flex p-9;
+}
+
+.contentUserContainer {
+  @apply flex flex-col justify-center items-center py-6;
+}
+
+.contentUserContainer h3 {
+  @apply font-bold text-gray-600 text-lg py-2;
+}
+
+.contentUser {
+  @apply flex text-sm px-10 text-justify text-gray-500 font-semibold;
+}
+
+/* Large  Widget */
+.containerLarge {
+  @apply w-715 h-80 flex flex-col;
+}
+
+.contentContainer {
+  @apply flex  h-full justify-around pt-6 items-center;
+}
+
+.contentText {
+  @apply font-bold text-3xl py-2  h-full flex flex-col justify-around;
+}
+
+.contentText p {
+  @apply font-semibold text-base w-52 text-gray-400;
+}
+
+.imageLarge {
+  @apply h-full flex items-center;
+}

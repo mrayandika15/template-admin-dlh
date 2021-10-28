@@ -1,0 +1,15 @@
+.container {
+  @apply flex items-center w-80 h-10 m-5 border border-gray-200 rounded-xl;
+}
+
+.searchInput {
+  @apply w-full  focus:outline-none;
+}
+
+.icon {
+  @apply flex justify-center items-center mx-2;
+}
+
+.icon img {
+  @apply w-4;
+}

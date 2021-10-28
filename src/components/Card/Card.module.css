@@ -1,0 +1,15 @@
+.card {
+  @apply flex w-min m-3 border border-gray-200 rounded-xl;
+}
+
+.smallCard {
+  @apply w-64 h-24;
+}
+
+.mediumCard {
+  @apply w-80 h-80;
+}
+
+.largeCard {
+  @apply w-165 h-80 rounded-md;
+}
