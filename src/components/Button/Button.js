@@ -47,6 +47,9 @@ export default function Button(props) {
   if (props.login === true) {
     classNameBtn.push(style.loginButton);
   }
+  if (props.logout === true) {
+    classNameBtn.push(style.buttonLogout);
+  }
 
   // Push Icon to the right
   if (props.iconRight === true) {
@@ -80,4 +83,5 @@ Button.defaultProps = {
   widget: false,
   rightIcon: false,
   login: false,
+  logout: false,
 };

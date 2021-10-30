@@ -1,5 +1,5 @@
 .card {
-  @apply flex w-min m-3 border border-gray-200 rounded-xl;
+  @apply flex w-full m-3 border border-gray-200 rounded-xl;
 }
 
 .smallCard {

@@ -1,0 +1,15 @@
+.container {
+  @apply flex flex-col w-full h-full;
+}
+
+.section1__container {
+  @apply flex justify-between 
+          w-full     h-1/2          
+          border border-red-600;
+}
+
+.section2__container {
+  @apply flex justify-between 
+          w-full h-1/2
+          border border-red-700;
+}

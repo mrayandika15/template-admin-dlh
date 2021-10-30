@@ -1,5 +1,5 @@
 .container {
-  @apply flex items-center w-80 h-10 m-5 border border-gray-200 rounded-xl;
+  @apply flex items-center bg-white w-80 h-10 m-5 border border-gray-200 rounded-xl;
 }
 
 .searchInput {

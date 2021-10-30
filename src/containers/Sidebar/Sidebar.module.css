@@ -1,0 +1,18 @@
+.container {
+  @apply w-1/4 h-screen
+         flex flex-col
+         shadow-xl;
+}
+
+.logo__container {
+  @apply flex justify-center items-center mb-10;
+}
+
+.button__container {
+  @apply w-full 
+         flex flex-col items-center justify-center;
+}
+
+.button__logout {
+  @apply flex justify-center items-center mt-28;
+}

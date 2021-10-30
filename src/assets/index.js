@@ -6,6 +6,14 @@ import chartIcon from "./svg/chartIcon.svg";
 import chartWidget from "./img/DataBOD.png";
 import arrowRight from "./svg/arrow-right.svg";
 import onePeople from "./svg/onePeople.svg";
+import logout from "./svg/logout.svg";
+import logo from "./svg/logo.svg";
+import dataPotensial from "./svg/dataPotensial.svg";
+import dataParsial from "./svg/dataParsial.svg";
+import twoPeople from "./svg/twoPeople.svg";
+import setting from "./svg/setting.svg";
+import titikPantau from "./svg/titikPantau.svg";
+import pencerahan from "./svg/Pencerahan.svg";
 
 export {
   peopleIcon,
@@ -16,4 +24,12 @@ export {
   chartWidget,
   arrowRight,
   onePeople,
+  logout,
+  logo,
+  dataPotensial,
+  dataParsial,
+  twoPeople,
+  setting,
+  titikPantau,
+  pencerahan,
 };
