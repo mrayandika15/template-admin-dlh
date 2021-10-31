@@ -1,5 +1,5 @@
 import React from "react";
-import { SearchBar, Typography } from "../../components";
+import { NavbarMobile, SearchBar, Typography } from "../../components";
 import style from "./Navbar.module.css";
 
 export const Navbar = () => {
@@ -7,6 +7,7 @@ export const Navbar = () => {
     <div className={style.container}>
       <Typography name="Hi Rayandika" header="Welcome to DLH Cimahi" />
       <SearchBar />
+      <NavbarMobile />
     </div>
   );
 };

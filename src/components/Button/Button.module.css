@@ -96,3 +96,14 @@
            w-3/4
            justify-start;
 }
+
+.navMobile {
+  @apply flex justify-center items-center 
+         w-12 h-12 
+         rounded-full
+         bg-transparent
+         shadow-none
+         z-50 relative;
+
+  @apply sm:hidden;
+}

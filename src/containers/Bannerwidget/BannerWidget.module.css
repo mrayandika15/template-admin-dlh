@@ -1,3 +1,5 @@
 .container {
-  @apply flex justify-around;
+  @apply flex flex-col;
+
+  @apply sm:flex sm:flex-row sm:items-start sm:justify-around;
 }

@@ -14,6 +14,7 @@ import twoPeople from "./svg/twoPeople.svg";
 import setting from "./svg/setting.svg";
 import titikPantau from "./svg/titikPantau.svg";
 import pencerahan from "./svg/Pencerahan.svg";
+import hamburgerIcon from "./svg/hamburgerIcon.svg";
 
 export {
   peopleIcon,
@@ -32,4 +33,5 @@ export {
   setting,
   titikPantau,
   pencerahan,
+  hamburgerIcon,
 };

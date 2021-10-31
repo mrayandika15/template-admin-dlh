@@ -1,7 +1,10 @@
 .container {
   @apply w-1/4 h-screen
          flex flex-col
-         shadow-xl;
+         shadow-xl
+         hidden;
+
+  @apply sm:flex;
 }
 
 .logo__container {

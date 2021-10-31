@@ -51,13 +51,17 @@ export default function Button(props) {
     classNameBtn.push(style.buttonLogout);
   }
 
+  if (props.navMobile === true) {
+    classNameBtn.push(style.navMobile);
+  }
+
   // Push Icon to the right
   if (props.iconRight === true) {
     classNameBtn.push(style.rightIcon);
   }
 
   return (
-    <div className={classNameBtn.join(" ")}>
+    <div className={classNameBtn.join(" ")} onClick={props.onClick}>
       {icon && (
         <div className={style.icon}>
           <img
@@ -67,6 +71,7 @@ export default function Button(props) {
           />
         </div>
       )}
+
       {props.children}
     </div>
   );
