@@ -7,22 +7,26 @@ export const ContentWidget = () => {
   return (
     <div className={style.container}>
       <div className={style.section1__container}>
-        <Widget
-          largeWidget
-          header="Data BOD"
-          desc="Masukan data BOD"
-          imgSrc={chartWidget}
-          button="Masukan Data"
-        />
+        <div className={style.widget__large}>
+          <Widget
+            largeWidget
+            header="Data BOD"
+            desc="Masukan data BOD"
+            imgSrc={chartWidget}
+            button="Masukan Data"
+          />
+        </div>
       </div>
       <div className={style.section2__container}>
-        <Widget
-          largeWidget
-          header="Data BOD"
-          desc="Masukan data BOD"
-          imgSrc={chartWidget}
-          button="Masukan Data"
-        />
+        <div className={style.widget__large}>
+          <Widget
+            largeWidget
+            header="Data BOD"
+            desc="Masukan data BOD"
+            imgSrc={chartWidget}
+            button="Masukan Data"
+          />
+        </div>
       </div>
     </div>
   );

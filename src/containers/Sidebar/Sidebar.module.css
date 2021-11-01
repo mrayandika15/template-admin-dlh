@@ -1,8 +1,10 @@
 .container {
-  @apply w-1/4 h-screen
+  @apply w-72 h-screen fixed
+         bg-white
          flex flex-col
          shadow-xl
-         hidden;
+         hidden
+         z-50;
 
   @apply sm:flex;
 }

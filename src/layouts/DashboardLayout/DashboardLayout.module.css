@@ -1,5 +1,8 @@
 .container {
-  @apply flex flex-col w-full bg-background;
+  @apply flex flex-col 
+         w-full h-full
+       bg-background
+         ml-72;
 
-  @apply sm:w-3/4;
+  @apply sm:w-full;
 }

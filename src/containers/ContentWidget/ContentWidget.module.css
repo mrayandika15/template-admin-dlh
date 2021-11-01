@@ -4,12 +4,16 @@
 
 .section1__container {
   @apply flex justify-between 
-          w-full     h-1/2          
+          w-full h-44          
           border border-red-600;
 }
 
 .section2__container {
   @apply flex justify-between 
-          w-full h-1/2
+          w-full h-44
           border border-red-700;
+}
+
+.widget__large {
+  @apply h-full;
 }

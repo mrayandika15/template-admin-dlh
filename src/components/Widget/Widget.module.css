@@ -92,7 +92,7 @@
 
 /* Large  Widget */
 .containerLarge {
-  @apply w-2/3 h-full flex flex-col bg-white rounded-lg;
+  @apply w-full h-full flex flex-col bg-white rounded-lg;
 }
 
 .contentContainer {
@@ -108,5 +108,10 @@
 }
 
 .imageLarge {
-  @apply h-1/3 w-1/3 flex items-center;
+  @apply w-full h-full
+         flex items-center;
+}
+
+.imageLarge img {
+  @apply w-full h-full;
 }
