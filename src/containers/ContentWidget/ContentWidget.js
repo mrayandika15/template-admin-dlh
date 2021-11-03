@@ -1,7 +1,7 @@
 import React from "react";
 import { Widget } from "../../components";
 import style from "./ContentWidget.module.css";
-import { chartWidget } from "../../assets";
+import { chartWidget, onePeople } from "../../assets";
 
 export const ContentWidget = () => {
   return (
@@ -17,7 +17,9 @@ export const ContentWidget = () => {
           />
         </div>
 
-        <Widget mediumWidget historyWidget content="raka" />
+        <div className={style.medium__content}>
+          <Widget mediumWidget history content="raka" />
+        </div>
       </div>
       <div className={style.section2__container}>
         <div className={style.large__content}>
@@ -27,6 +29,16 @@ export const ContentWidget = () => {
             desc="Masukan Data Pengolahan Air !"
             imgSrc={chartWidget}
             button="Masukan Data"
+          />
+        </div>
+        <div className={style.medium__content}>
+          <Widget
+            mediumWidget
+            userWidget
+            iconSrc={onePeople}
+            heading="Raka"
+            content="Content"
+            buttonName="selengkapnya"
           />
         </div>
       </div>

@@ -4,18 +4,22 @@
 }
 
 .section1__container {
-  @apply flex 
+  @apply flex justify-between
           w-full h-1/2
           py-4 px-4;
 }
 
 .section2__container {
-  @apply flex 
+  @apply flex  justify-between
           w-full h-1/2
           py-4 px-4;
 }
 
 .large__content {
-  width: 44rem;
-  height: 100%;
+  @apply w-2/3 h-full;
+}
+
+.medium__content {
+  @apply h-auto;
+  width: 29%;
 }

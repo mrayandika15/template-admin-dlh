@@ -32,7 +32,9 @@
 
 /* Medium Widget */
 .mediumContainer {
-  @apply w-80 h-80;
+  @apply w-full h-full
+         bg-white
+         rounded-2xl;
 }
 
 /* History Medium Widget */
