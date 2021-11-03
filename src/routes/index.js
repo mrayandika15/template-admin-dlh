@@ -1,6 +1,14 @@
 import { Switch, Route } from "react-router";
 import { BrowserRouter } from "react-router-dom";
-import { Home, NotFound, AuthView } from "../pages";
+import {
+  Home,
+  NotFound,
+  AuthView,
+  BodPotensial,
+  BodParsial,
+  Datauser,
+  SettingDashboard,
+} from "../pages";
 
 // pass your route here.
 
@@ -13,6 +21,26 @@ const routes = [
   {
     path: "/Auth",
     component: AuthView,
+    exact: false,
+  },
+  {
+    path: "/Data_BOD_Potensial",
+    component: BodPotensial,
+    exact: false,
+  },
+  {
+    path: "/Data_BOD_Parsial",
+    component: BodParsial,
+    exact: false,
+  },
+  {
+    path: "Data_User",
+    component: Datauser,
+    exact: false,
+  },
+  {
+    path: "Setting_Dashboard",
+    component: SettingDashboard,
     exact: false,
   },
 ];
