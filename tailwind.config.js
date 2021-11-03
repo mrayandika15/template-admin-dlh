@@ -11,7 +11,7 @@ module.exports = {
         finishText: "#5887FF",
         processColor: "#FFF6E8",
         processText: "#FFA31A",
-        background: "#E5E5E5",
+        background: "#F4F7FE",
       },
       width: {
         165: "65.951rem",

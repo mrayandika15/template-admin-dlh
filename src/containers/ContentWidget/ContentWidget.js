@@ -7,22 +7,24 @@ export const ContentWidget = () => {
   return (
     <div className={style.container}>
       <div className={style.section1__container}>
-        <div className={style.widget__large}>
+        <div className={style.large__content}>
           <Widget
             largeWidget
-            header="Data BOD"
-            desc="Masukan data BOD"
+            header="Data Beban Pencemaran BOD Potensial"
+            desc="Masukan Data BOD dengan Klik Button di bawah ini !"
             imgSrc={chartWidget}
             button="Masukan Data"
           />
         </div>
+
+        <Widget mediumWidget historyWidget content="raka" />
       </div>
       <div className={style.section2__container}>
-        <div className={style.widget__large}>
+        <div className={style.large__content}>
           <Widget
             largeWidget
-            header="Data BOD"
-            desc="Masukan data BOD"
+            header="Data Beban Pencemaran BOD Aktual"
+            desc="Masukan Data Pengolahan Air !"
             imgSrc={chartWidget}
             button="Masukan Data"
           />

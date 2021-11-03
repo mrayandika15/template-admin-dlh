@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Widget.module.css";
-import { Card, Button } from "..";
+import { Button } from "..";
 import { arrowRight } from "../../assets";
 
 export const Widget = (props) => {
@@ -21,7 +21,7 @@ export const Widget = (props) => {
   }
 
   return (
-    <Card>
+    <>
       {smallWidget && (
         <div className={classSmall.join(" ")}>
           <div className={style.iconContainer}>
@@ -96,7 +96,7 @@ export const Widget = (props) => {
           )}
         </div>
       )}
-    </Card>
+    </>
   );
 };
 

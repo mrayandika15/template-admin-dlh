@@ -1,19 +1,21 @@
 .container {
-  @apply flex flex-col w-full h-full;
+  @apply flex flex-col 
+         w-full h-full;
 }
 
 .section1__container {
-  @apply flex justify-between 
-          w-full h-44          
-          border border-red-600;
+  @apply flex 
+          w-full h-1/2
+          py-4 px-4;
 }
 
 .section2__container {
-  @apply flex justify-between 
-          w-full h-44
-          border border-red-700;
+  @apply flex 
+          w-full h-1/2
+          py-4 px-4;
 }
 
-.widget__large {
-  @apply h-full;
+.large__content {
+  width: 44rem;
+  height: 100%;
 }
