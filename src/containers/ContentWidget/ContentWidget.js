@@ -6,7 +6,7 @@ import { chartWidget, onePeople } from "../../assets";
 export const ContentWidget = () => {
   return (
     <div className={style.container}>
-      <div className={style.section1__container}>
+      <div className={style.section__container}>
         <div className={style.large__content}>
           <Widget
             largeWidget
@@ -21,7 +21,7 @@ export const ContentWidget = () => {
           <Widget mediumWidget history content="raka" />
         </div>
       </div>
-      <div className={style.section2__container}>
+      <div className={style.section__container}>
         <div className={style.large__content}>
           <Widget
             largeWidget

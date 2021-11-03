@@ -6,7 +6,7 @@
          hidden
          z-50;
 
-  @apply sm:flex;
+  @apply md:flex;
 }
 
 .logo__container {

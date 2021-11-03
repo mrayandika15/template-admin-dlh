@@ -2,5 +2,5 @@
   @apply flex flex-col 
         w-full h-full;
 
-  @apply sm:w-full sm:ml-72;
+  @apply sm:w-full md:ml-72;
 }

@@ -3,23 +3,28 @@
          w-full h-full;
 }
 
-.section1__container {
-  @apply flex justify-between
+.section__container {
+  @apply flex flex-col justify-between
           w-full h-1/2
-          py-4 px-4;
-}
+          py-4 px-4 my-2;
 
-.section2__container {
-  @apply flex  justify-between
-          w-full h-1/2
-          py-4 px-4;
+  @apply md:flex-row;
 }
 
 .large__content {
-  @apply w-2/3 h-full;
+  @apply w-full h-full my-2;
+
+  @apply md:w-2/3 md:my-0;
 }
 
 .medium__content {
-  @apply h-auto;
-  width: 29%;
+  @apply w-full h-auto my-2;
+
+  @apply md:my-0;
+}
+
+@media (min-width: 768px) {
+  .medium__content {
+    width: 29%;
+  }
 }

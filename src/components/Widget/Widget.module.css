@@ -1,8 +1,11 @@
 /* Small Widget */
 .containerSmall {
-  @apply w-11/12 h-24 bg-white rounded-xl flex justify-start px-2 items-center;
+  @apply w-11/12  h-24 my-3
+       bg-white 
+         rounded-xl 
+         flex justify-start px-2 items-center;
 
-  @apply sm:w-64;
+  @apply md:w-64 md:my-0;
 }
 
 .containerSmall .iconContainer {
@@ -32,7 +35,7 @@
 
 /* Medium Widget */
 .mediumContainer {
-  @apply w-full h-full
+  @apply w-full h-full 
          bg-white
          rounded-2xl;
 }

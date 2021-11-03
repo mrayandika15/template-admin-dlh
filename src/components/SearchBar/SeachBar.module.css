@@ -4,7 +4,7 @@
         w-80 h-10 m-5 
         border border-gray-200 rounded-xl hidden;
 
-  @apply sm:flex;
+  @apply md:flex;
 }
 
 .searchInput {

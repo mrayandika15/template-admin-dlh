@@ -105,5 +105,5 @@
          shadow-none
          z-50 relative;
 
-  @apply sm:hidden;
+  @apply md:hidden;
 }
