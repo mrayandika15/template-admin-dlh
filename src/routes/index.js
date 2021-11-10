@@ -1,5 +1,6 @@
 import { Switch, Route } from "react-router";
 import { BrowserRouter } from "react-router-dom";
+import { MainLayout } from "../layouts";
 import {
   Home,
   NotFound,
@@ -34,12 +35,12 @@ const routes = [
     exact: false,
   },
   {
-    path: "Data_User",
+    path: "/Data_User",
     component: Datauser,
     exact: false,
   },
   {
-    path: "Setting_Dashboard",
+    path: "/Setting_Dashboard",
     component: SettingDashboard,
     exact: false,
   },
@@ -47,12 +48,12 @@ const routes = [
 
 function RouteWithSubRoutes(route) {
   return (
-    <main>
+    <MainLayout>
       <Route
         {...route}
         render={(props) => <route.component {...props} routes={route.routes} />}
       />
-    </main>
+    </MainLayout>
   );
 }
 

@@ -43,7 +43,7 @@
 
 .primary {
   @apply rounded-3xl 
-         px-7 py-1 
+          w-24 h-10 shadow-md
          text-sm font-semibold;
 }
 .danger {

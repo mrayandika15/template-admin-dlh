@@ -1,5 +1,5 @@
 import React from "react";
-import { ContentWidget, Navbar, Sidebar } from "../../containers";
+import { ContentWidget, Navbar } from "../../containers";
 import { Bannerwidget } from "../../containers/Bannerwidget/Bannerwidget";
 // Layout
 import { HomeLayout, DashboardLayout } from "../../layouts";
@@ -8,9 +8,8 @@ import { HomeLayout, DashboardLayout } from "../../layouts";
 const Home = () => {
   return (
     <HomeLayout>
-      <Sidebar />
       <DashboardLayout>
-        <Navbar />
+        <Navbar header="Welcome to DLH Cimahi" />
         <Bannerwidget />
         <ContentWidget />
       </DashboardLayout>

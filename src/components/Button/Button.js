@@ -6,13 +6,14 @@ export default function Button(props) {
 
   const icon = props.icon;
 
-  if (props.sidebarActive === true) {
+  if (props.sidebarType === "active") {
     classNameBtn.push(style.sidebarActive);
   }
 
-  if (props.sidebarInActive === true) {
+  if (props.sidebarType === "inActive") {
     classNameBtn.push(style.sidebarInactive);
   }
+  
 
   if (props.primary === true) {
     classNameBtn.push(style.primary);
@@ -79,8 +80,6 @@ export default function Button(props) {
 
 Button.defaultProps = {
   icon: false,
-  sidebarActive: false,
-  sidebarInActive: false,
   primary: false,
   danger: false,
   yesModal: false,

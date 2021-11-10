@@ -1,7 +1,7 @@
 .card {
-  @apply flex w-full m-3 
+  @apply flex w-full h-full m-3 
          border border-gray-200 
-         rounded-xl
+         rounded-2xl
          bg-white;
 }
 

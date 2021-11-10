@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./Sidebar.module.css";
+import { useHistory } from "react-router-dom";
 // assets
 import {
   logo,
@@ -15,6 +16,30 @@ import {
 import { Button } from "../../components";
 
 export const Sidebar = () => {
+  const history = useHistory();
+
+  const type = ["inActive"];
+
+  const navHomeHandler = () => {
+    history.push("/");
+  };
+
+  const navPotensialHandler = () => {
+    history.push("/Data_BOD_Potensial");
+  };
+
+  const navParsialHandler = () => {
+    history.push("/Data_BOD_Parsial");
+  };
+
+  const navUserHandler = () => {
+    history.push("/Data_User");
+  };
+
+  const navSettingHandler = () => {
+    history.push("/Setting_Dashboard");
+  };
+
   return (
     <div className={style.container}>
       <div className={style.logo__container}>
@@ -22,23 +47,53 @@ export const Sidebar = () => {
       </div>
 
       <div className={style.button__container}>
-        <Button sidebarActive icon iconSrc={dashboardIcon} iconAlt="">
+        <Button
+          sidebarType={type[0]}
+          icon
+          iconSrc={dashboardIcon}
+          onClick={navHomeHandler}
+          iconAlt=""
+        >
           Dashboard
         </Button>
 
-        <Button sidebarInActive icon iconSrc={dataPotensial} iconAlt="">
+        <Button
+          sidebarType={type[0]}
+          icon
+          iconSrc={dataPotensial}
+          onClick={navPotensialHandler}
+          iconAlt=""
+        >
           Data BOD Potensial
         </Button>
 
-        <Button sidebarInActive icon iconSrc={dataParsial} iconAlt="">
+        <Button
+          sidebarType={type[0]}
+          icon
+          iconSrc={dataParsial}
+          iconAlt=""
+          onClick={navParsialHandler}
+        >
           Data BOD Parsial
         </Button>
 
-        <Button sidebarInActive icon iconSrc={twoPeople} iconAlt="">
+        <Button
+          sidebarType={type[0]}
+          icon
+          iconSrc={twoPeople}
+          iconAlt=""
+          onClick={navUserHandler}
+        >
           Data User
         </Button>
 
-        <Button sidebarInActive icon iconSrc={setting} iconAlt="">
+        <Button
+          sidebarType={type[0]}
+          icon
+          iconSrc={setting}
+          iconAlt=""
+          onClick={navSettingHandler}
+        >
           Setting Dashboard
         </Button>
       </div>
