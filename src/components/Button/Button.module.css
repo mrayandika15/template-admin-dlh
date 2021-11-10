@@ -48,7 +48,7 @@
 }
 .danger {
   @apply bg-danger
-         px-7 py-1 rounded-3xl  
+         w-24 h-10 rounded-3xl  
          text-sm font-semibold;
 }
 

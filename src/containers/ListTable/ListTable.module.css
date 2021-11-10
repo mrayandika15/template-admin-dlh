@@ -7,7 +7,7 @@
   @apply flex justify-end mr-2 mt-3;
 }
 
-.container__card {
+.container__form {
   @apply flex
          w-full h-auto;
 }

@@ -13,7 +13,6 @@ export default function Button(props) {
   if (props.sidebarType === "inActive") {
     classNameBtn.push(style.sidebarInactive);
   }
-  
 
   if (props.primary === true) {
     classNameBtn.push(style.primary);
@@ -62,7 +61,11 @@ export default function Button(props) {
   }
 
   return (
-    <div className={classNameBtn.join(" ")} onClick={props.onClick}>
+    <div
+      className={classNameBtn.join(" ")}
+      style={{ width: props.width, height: props.height }}
+      onClick={props.onClick}
+    >
       {icon && (
         <div className={style.icon}>
           <img
