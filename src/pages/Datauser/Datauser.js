@@ -1,13 +1,13 @@
 import React from "react";
 
-import { ListTable, Navbar } from "../../containers";
+import { ListTableUser, Navbar } from "../../containers";
 import { DashboardLayout } from "../../layouts";
 
 export const Datauser = () => {
   return (
     <DashboardLayout>
       <Navbar header="Data User" />
-      <ListTable />
+      <ListTableUser />
     </DashboardLayout>
   );
 };

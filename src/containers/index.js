@@ -3,6 +3,6 @@ import ModalAuth from "./ModalAuth/ModalAuth";
 import { Navbar } from "./Navbar/Navbar";
 import { Sidebar } from "./Sidebar/Sidebar";
 import { ContentWidget } from "./ContentWidget/ContentWidget";
-import { ListTable } from "./ListTable/ListTable";
+import { ListTableUser } from "./ListTableUser/ListTableUser";
 
-export { BannerAuth, ModalAuth, Navbar, Sidebar, ContentWidget, ListTable };
+export { BannerAuth, ModalAuth, Navbar, Sidebar, ContentWidget, ListTableUser };
