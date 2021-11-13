@@ -30,23 +30,38 @@ export const NavbarMobile = () => {
           </div>
 
           <div className={style.button__container}>
-            <Button sidebarActive icon iconSrc={dashboardIcon} iconAlt="">
+            <Button
+              sidebarType="inActive"
+              icon
+              iconSrc={dashboardIcon}
+              iconAlt=""
+            >
               Dashboard
             </Button>
 
-            <Button sidebarInActive icon iconSrc={dataPotensial} iconAlt="">
+            <Button
+              sidebarType="inActive"
+              icon
+              iconSrc={dataPotensial}
+              iconAlt=""
+            >
               Data BOD Potensial
             </Button>
 
-            <Button sidebarInActive icon iconSrc={dataParsial} iconAlt="">
+            <Button
+              sidebarType="inActive"
+              icon
+              iconSrc={dataParsial}
+              iconAlt=""
+            >
               Data BOD Parsial
             </Button>
 
-            <Button sidebarInActive icon iconSrc={twoPeople} iconAlt="">
+            <Button sidebarType="inActive" icon iconSrc={twoPeople} iconAlt="">
               Data User
             </Button>
 
-            <Button sidebarInActive icon iconSrc={setting} iconAlt="">
+            <Button sidebarType="inActive" icon iconSrc={setting} iconAlt="">
               Setting Dashboard
             </Button>
           </div>
@@ -61,4 +76,3 @@ export const NavbarMobile = () => {
     </div>
   );
 };
-
