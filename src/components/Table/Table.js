@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React from "react";
 import style from "./Table.module.css";
 
 import { useTable } from "react-table";
