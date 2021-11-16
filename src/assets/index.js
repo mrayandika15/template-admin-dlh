@@ -7,7 +7,7 @@ import chartWidget from "./img/DataBOD.png";
 import arrowRight from "./svg/arrow-right.svg";
 import onePeople from "./svg/onePeople.svg";
 import logout from "./svg/logout.svg";
-import logo from "./svg/logo.svg";
+import logo from "./img/Logo.png";
 import dataPotensial from "./svg/dataPotensial.svg";
 import dataParsial from "./svg/dataParsial.svg";
 import twoPeople from "./svg/twoPeople.svg";
@@ -15,6 +15,9 @@ import setting from "./svg/setting.svg";
 import titikPantau from "./svg/titikPantau.svg";
 import pencerahan from "./svg/Pencerahan.svg";
 import hamburgerIcon from "./svg/hamburgerIcon.svg";
+import bannerImage from "./img/BannerImage.png";
+import lock from "./svg/lock.svg";
+import mail from "./svg/mail.svg";
 
 export {
   peopleIcon,
@@ -34,4 +37,7 @@ export {
   titikPantau,
   pencerahan,
   hamburgerIcon,
+  bannerImage,
+  lock,
+  mail,
 };

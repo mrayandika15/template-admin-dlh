@@ -18,37 +18,43 @@ const routes = [
     path: "/",
     component: Home,
     exact: true,
+    sidebarActive: true,
   },
   {
     path: "/Auth",
     component: AuthView,
     exact: false,
+    sidebarActive: false,
   },
   {
     path: "/Data_BOD_Potensial",
     component: BodPotensial,
     exact: false,
+    sidebarActive: true,
   },
   {
     path: "/Data_BOD_Parsial",
     component: BodParsial,
     exact: false,
+    sidebarActive: true,
   },
   {
     path: "/Data_User",
     component: Datauser,
     exact: false,
+    sidebarActive: true,
   },
   {
     path: "/Setting_Dashboard",
     component: SettingDashboard,
     exact: false,
+    sidebarActive: true,
   },
 ];
 
 function RouteWithSubRoutes(route) {
   return (
-    <MainLayout>
+    <MainLayout sidebarActive={route.sidebarActive}>
       <Route
         {...route}
         render={(props) => <route.component {...props} routes={route.routes} />}

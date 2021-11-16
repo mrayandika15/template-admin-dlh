@@ -5,7 +5,7 @@ import style from "./MainLayout.module.css";
 export const MainLayout = (props) => {
   return (
     <div className={style.container}>
-      <Sidebar />
+      <Sidebar sidebarActive={props.sidebarActive} />
       {props.children}
     </div>
   );

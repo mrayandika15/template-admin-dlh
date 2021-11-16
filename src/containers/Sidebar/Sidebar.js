@@ -15,8 +15,9 @@ import {
 // components
 import { Button } from "../../components";
 
-export const Sidebar = () => {
+export const Sidebar = (props) => {
   const history = useHistory();
+  const sidebarActive = props.sidebarActive;
 
   const type = ["inActive"];
 
@@ -41,7 +42,7 @@ export const Sidebar = () => {
   };
 
   return (
-    <div className={style.container}>
+    <div className={sidebarActive ? style.container : style.hide}>
       <div className={style.logo__container}>
         <img src={logo} alt="" />
       </div>

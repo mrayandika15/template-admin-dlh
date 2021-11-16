@@ -6,6 +6,7 @@ import { Status } from "./Status/Status";
 import { Typography } from "./Typography/Typography";
 import { NavbarMobile } from "./NavbarMobile/NavbarMobile";
 import { Table } from "./Table/Table";
+import { Form } from "./Form/Form";
 
 export {
   Button,
@@ -16,4 +17,5 @@ export {
   Typography,
   NavbarMobile,
   Table,
+  Form,
 };
