@@ -2,9 +2,9 @@
   @apply flex items-center 
          bg-white 
           w-80 h-10 my-8
-          border border-gray-200 rounded-xl hidden;
+          border border-gray-200 rounded-xl;
 
-  @apply md:flex;
+  @apply md:flex md:w-full;
 }
 .input {
   @apply w-full  focus:outline-none;

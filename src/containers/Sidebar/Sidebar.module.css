@@ -10,7 +10,11 @@
 }
 
 .logo__container {
-  @apply flex justify-center items-center mb-10;
+  @apply flex justify-center w-full items-center mb-10;
+}
+
+.logo__container img {
+  @apply w-28;
 }
 
 .button__container {

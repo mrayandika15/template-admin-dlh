@@ -1,7 +1,9 @@
 .container {
   @apply flex justify-center items-center  
-         w-1/2 h-full;
+         w-1/2 h-full hidden;
   background: linear-gradient(#0575e6, #3d6988);
+
+  @apply md:flex;
 }
 
 .container img {

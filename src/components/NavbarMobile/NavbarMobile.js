@@ -32,6 +32,7 @@ export const NavbarMobile = () => {
           <div className={style.button__container}>
             <Button
               sidebarType="inActive"
+              P
               icon
               iconSrc={dashboardIcon}
               iconAlt=""
