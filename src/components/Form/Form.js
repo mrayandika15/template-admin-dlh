@@ -13,9 +13,10 @@ export const Form = (props) => {
       )}
 
       <input
-        type="text"
+        type={props.onType}
         className={style.input}
         placeholder={props.placeholder}
+        ref={props.onRef}
       />
     </div>
   );

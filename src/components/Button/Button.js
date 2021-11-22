@@ -61,10 +61,11 @@ export default function Button(props) {
   }
 
   return (
-    <div
+    <button
       className={classNameBtn.join(" ")}
       style={{ width: props.width, height: props.height }}
       onClick={props.onClick}
+      type={props.onType}
     >
       {icon && (
         <div className={style.icon}>
@@ -77,7 +78,7 @@ export default function Button(props) {
       )}
 
       {props.children}
-    </div>
+    </button>
   );
 }
 
