@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "";
+const BASE_URL = "http://localhost:1337";
 
 const TIMEOUT = 2000;
 
@@ -26,7 +26,7 @@ class ApiService {
     return Promise.resolve(response);
   }
 
-  handdleError(response) {
+  handdleError(error) {
     return Promise.reject(error);
   }
 

@@ -2,8 +2,19 @@ import React, { useRef } from "react";
 import { Button, Form } from "../../components";
 import style from "./ModalAuth.module.css";
 import { lock, mail } from "../../assets";
+import { useDispatch, useSelector } from "react-redux";
+import { loginAsnyc } from "../../store/auth/auth.action";
+import { useHistory } from "react-router";
 
 export default function ModalAuth() {
+  const dispatch = useDispatch();
+
+  const token = useSelector((state) => state);
+
+  console.log(token);
+
+  const history = useHistory();
+
   const usernameRef = useRef();
   const passwordRef = useRef();
 
@@ -14,11 +25,11 @@ export default function ModalAuth() {
     const passwordInput = passwordRef.current.value;
 
     const Form = {
-      username: usernameInput,
+      identifier: usernameInput,
       password: passwordInput,
     };
 
-    console.log(Form);
+    dispatch(loginAsnyc(Form));
   };
 
   return (
